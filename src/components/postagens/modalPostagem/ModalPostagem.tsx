@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import Modal from '@mui/material/Modal';
-import { Button } from "@material-ui/core"
-import { Box } from '@mui/material';
+import {Button} from "@material-ui/core"
+import {Box} from "@mui/material"
 import CloseIcon from '@material-ui/icons/Close';
 import './ModalPostagem.css';
-import CadastroPost from '../cadastroPost/CadastroPost';
+import CadastroPostagem from '../cadastroPostagem/CadastroPostagem';
 
 
 function getModalStyle() {
@@ -52,7 +52,7 @@ function ModalPostagem () {
       
       </Box>
       
-      <CadastroPost/>
+      <CadastroPostagem/>
       
     </div>
   );
@@ -74,4 +74,4 @@ function ModalPostagem () {
     </div>
   );
 }
-export default ModalPostagem;
+export default ModalPostagem
